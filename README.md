@@ -9,6 +9,8 @@
 `create database laravel;`
 ### Create product controller with basic crud methods
 `php artisan make:controller ProductController --api`
+### List all available routes in application
+`php artisan route:list`
 
 ## Notes
 ### validate 

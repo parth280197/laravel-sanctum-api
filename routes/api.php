@@ -14,6 +14,9 @@ use Illuminate\Support\Facades\Route;
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
+//if we have just crud on model we can use just resource to get all Route.
+//to list all route run command php artisan route:list
+Route::resource('products',ProductController::class);
 
 Route::get('/products',[ProductController::class,'index']);
 
