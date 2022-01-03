@@ -11,6 +11,8 @@
 `php artisan make:controller ProductController --api`
 ### List all available routes in application
 `php artisan route:list`
+### Create AuthController
+`php artisan make:controller AuthController`
 
 ## sanctum setup
 ### install sanctum
