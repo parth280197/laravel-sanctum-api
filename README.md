@@ -23,7 +23,9 @@
 `php artisan migrate`
 
 ## Notes
-### validate 
+### For debugging install clock work `composer require itsgoingd/clockwork` and visit `http://your_app/__clockwork`.
+
+### Validate request data. 
 #### `$request->validate([...])` will give you better error message in response like below.
 ```
 {
