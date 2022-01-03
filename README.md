@@ -12,6 +12,14 @@
 ### List all available routes in application
 `php artisan route:list`
 
+## sanctum setup
+### install sanctum
+`composer require laravel/sanctum`
+### publish the Sanctum configuration and migration files using the vendor:publish Artisan command. The sanctum configuration file will be placed in your application's config directory:
+`php artisan vendor:publish --provider="Laravel\Sanctum\SanctumServiceProvider"
+### migrate
+`php artisan migrate`
+
 ## Notes
 ### validate 
 #### `$request->validate([...])` will give you better error message in response like below.
