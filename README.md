@@ -7,3 +7,5 @@
 `php artisan make:model Product --migration`
 ### Create database in mysql
 `create database laravel;`
+### Create product controller with basic crud methods
+`php artisan make:controller ProductController --api`
